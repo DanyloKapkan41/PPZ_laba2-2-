@@ -51,7 +51,7 @@ int main()
 	int n, modeint;
 	bool mode;
 	do {
-		cout << "Enter array size(1 - 100 000): ";
+		cout << "Enter array size(1 - 500): ";
 		cin >> n;
 	} while (n <= 0 || n >= 500);
 	int* nums = new int[n];
